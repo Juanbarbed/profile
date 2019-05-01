@@ -7,11 +7,11 @@ body {
   line-height:;
 }
 
-h1, h2, {
+h1, h2 {
   color: #333337;
   font-family: 'Roboto Slab', serif;
   font-size: 20;
-  line-height: ;
+  font-weight: bold;
 }
 
 h3 {
@@ -39,8 +39,19 @@ a {
   color: rgb(229,95,49);
 }
 
-.margin_down {
+.padding_down {
   padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.no_margin_up {
+  margin-top: 0;
+}
+
+.no_margin_down {
+  margin-bottom: 5;
+  margin-top: 30;
 }
 
 .card {
